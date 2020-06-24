@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>exercicio da jack</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- Begin page content -->
+    <main role="main" class="container">
+        <h1 class="mt-5">Exercicio para a Jack</h1>
+        <h2>Lista de requisitos que vc precisa cumprir</h2>
+        <ul class="list-group">
+            <li class="list-group-item">precisa estar em React!!</li>
+            <li class="list-group-item">ter uma tela com um campo com o nome "pesquise seu pokemon</li>
+            <li class="list-group-item">quando o user digitar no campo, a aplicação deve pesquisar na api usando o valor
+                que está no campo</li>
+            <li class="list-group-item">precisa mostar nome do pokemon e tipo</li>
+            
+            <li class="list-group-item">só fazer a pesquisa depois que o usuário digitou no minimo 2 caracteres</li>
+            <li class="list-group-item">esperar 0.5 s depois do usuário para de digitar, só depois desse tempo que a
+                aplicação deve fazer a request para a api(Dica, pesquise "debouncing function")</li>
+            <li class="list-group-item">os resultados da pesquisa devem aparecer abaixo do campo</li>
+            <li class="list-group-item">não precisa ficar bonito, pode deixar sem estilo mesmo</li>
+        </ul>
+    </main>
+
+    <div class="container mt-5 border border-primary " style="padding: 25px;">
+        <h2 class="mt-5 ">Veja o exemplo não funcional a baixo</h2>
+        <div>
+            <label for="search">pesquise seu pokemon aqui
+                <input id="search" name="search" type="text" placeholder="exemplo: pikachu">
+            </label>
+            <ul class="list-group">
+                <li>Ivysaur - Tipo: Grass</li>
+                <li>VenusaurTipo: Grass</li>
+                <li>Mega VenusaurTipo: Grass</li>
+                <li>Charmander Tipo: fire</li>
+                <li>CharmeleonTipo: fire</li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+
+</html>
